@@ -65,7 +65,8 @@ MarkupSafe==3.0.2
 matplotlib==3.9.4
 matplotlib-inline==0.1.7
 mdurl==0.1.2
-mflow==1.2.1
+#mflow==1.2.1
+mlflow==3.1.4
 ml_dtypes==0.5.3
 mlflow==3.2.0
 mlflow-skinny==3.2.0
@@ -136,6 +137,7 @@ wheel==0.45.1
 wrapt==1.17.3
 yarl==1.20.1
 zipp==3.23.0
+
 
 
 
