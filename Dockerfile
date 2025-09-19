@@ -24,4 +24,6 @@ COPY y_scaler.pkl .
 EXPOSE 8000
 
 # Define the command to run your FastAPI application using uvicorn
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "10000"]
+#uvicorn main:app --host 0.0.0.0 --port 10000
+
