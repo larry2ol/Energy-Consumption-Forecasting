@@ -33,6 +33,12 @@ except Exception as e:
 #Define API Endpoints
 app = FastAPI()
 
+
+
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to Energy Consumption Forecasting!"}
+
 # Define the input data model
 class TimeSeriesInput(BaseModel):
     # Assuming input_data is a list of lists representing the time series sequence
@@ -123,3 +129,4 @@ async def predict_power_consumption(data: TimeSeriesInput):
 
     except Exception as e:
         return {"error": f"An error occurred during prediction: {e}"}
+
