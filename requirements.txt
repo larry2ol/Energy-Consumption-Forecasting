@@ -110,7 +110,8 @@ rich==14.1.0
 rsa==4.9.1
 #scikit-learn==1.7.1
 scikit-learn==1.6.1
-scipy==1.16.1
+#scipy==1.16.1
+scipy==1.9.3
 seaborn==0.13.2
 setuptools==80.9.0
 six==1.17.0
@@ -140,6 +141,7 @@ wheel==0.45.1
 wrapt==1.17.3
 yarl==1.20.1
 zipp==3.23.0
+
 
 
 
