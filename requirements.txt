@@ -46,7 +46,8 @@ h5py==3.14.0
 idna==3.10
 importlib_metadata==8.7.0
 ipykernel==6.30.0
-ipython==9.4.0
+#ipython==9.4.0
+ipython==8.18.1
 ipython_pygments_lexers==1.1.1
 itsdangerous==2.2.0
 jedi==0.19.2
@@ -137,6 +138,7 @@ wheel==0.45.1
 wrapt==1.17.3
 yarl==1.20.1
 zipp==3.23.0
+
 
 
 
