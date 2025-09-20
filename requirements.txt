@@ -22,7 +22,8 @@ h5py==3.14.0
 #protobuf==6.32.0
 protobuf==4.25.3
 
-tensorboard==2.13.0
+#tensorboard==2.13.0
+tensorboard==2.20.0
 typing-extensions==4.5.0
 
 
@@ -30,6 +31,7 @@ sqlalchemy==1.4.49
 alembic==1.11.1
 
 requests==2.32.5
+
 
 
 
