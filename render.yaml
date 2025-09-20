@@ -4,4 +4,6 @@ services:
     env: docker
     plan: free
     dockerfilePath: Dockerfile
+
     autoDeploy: true
+    build: pythonVersion: 3.10
