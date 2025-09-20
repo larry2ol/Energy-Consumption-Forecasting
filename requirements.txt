@@ -1,37 +1,22 @@
-#fastapi==0.116.1
+
 fastapi==0.103.2
-
 uvicorn==0.35.0
-
-#tensorflow==2.13.0
-#keras==3.10.0
-#keras==2.13.1
 tensorflow==2.20.0
-keras==3.11.2
-
-#numpy==1.24.3
+keras==3.11.0
 numpy==1.26.4
 pandas==2.3.1
 scikit-learn==1.6.1
 scipy==1.9.3
-
 matplotlib==3.9.4
 seaborn==0.13.2
-
 h5py==3.14.0
-#protobuf==6.32.0
-#protobuf==4.25.3
 protobuf==3.20.3
-
-#tensorboard==2.13.0
 tensorboard==2.20.0
 typing-extensions==4.5.0
-
-
 sqlalchemy==1.4.49
 alembic==1.11.1
-
 requests==2.32.5
+
 
 
 
