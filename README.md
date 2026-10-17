@@ -1,5 +1,5 @@
 #  Energy Consumption Forecasting App
-This project forecasts energy consumption in **three distinct zones** using time series modeling. It supports both **10-minute** and **hourly** prediction intervals, enabling granular insights into regional energy demand.
+This project forecasts energy consumption in **three distinct zones** using time series modeling. It supports both **10-minute**, **hourly**  and **weekly** prediction intervals, enabling granular insights into regional energy demand.
 ##  Overview
 The application leverages historical input data to predict future energy usage across three zones. It uses a trained deep learning model (`model.keras`) and preprocessing scalers to normalize inputs and outputs. The app is containerized with Docker and designed for deployment on platforms like Render.
 ##  Features
